@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+#header>img {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.welcome {
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+#title {
+    font-size: 25px;
+    text-align: center;
+    color: #ff9220;
+}
+#as {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 300px;
+    height: 50px;
+    top: 100px;
+    left: 30px;
+}
+#center {
+    width: 80%;
+    height: 635px;
+    margin: 0 auto;
+    background-color: #cccccc;
+}
+#footer {
+    width: 100%;
+}
+#footer>img {
+    width: 100%;
+}
+#modify {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+#static_topic,#static_content,#old_topic {
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#topic,#oldTopic {
+    display: inline-block;
+    width: 420px;
+    height: 30px;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+#content {
+    width: 420px;
+    height: 200px;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+#btn-modify {
+    display: block;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: skyblue;
+    color: white;
+}
+#ModifyMsg {
+    width: 300px;
+    margin: 10px auto;
+    position: absolute;
+    left: 625px;
+    top: 690px;
+}
+#loginout {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    float: right;
+    right: 50px;
+    color: red;
+}

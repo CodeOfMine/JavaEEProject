@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-align: center;
+}
+.box {
+    width: 800px;
+    height: 160px;
+    margin: 0 auto;
+}
+.table-form {
+    margin: 20px auto;
+}
+input[type=text] {
+    display: inline-block;
+    width: 220px;
+    border-radius: 4px;
+    background-color: #d3faff;
+}
+input[type=password] {
+    display: inline-block;
+    width: 220px;
+    border-radius: 4px;
+    background-color: #d3faff;
+}
+input[type=submit] {
+    display: inline-block;
+    width: 282px;
+    height: 30px;
+    background-color: skyblue;
+}
+p {
+    text-align: center;
+}
+#loginMsg {
+    width: 300px;
+    margin: 10px auto;
+    height: 50px;
+}
